@@ -1,9 +1,7 @@
-````markdown
-
 
 ## 👥 **ÉQUIPE DU PROJET**
 
-- **NOUBISSI FOPA CHRISTIAN JUNIOR**  
+**NOUBISSI FOPA CHRISTIAN JUNIOR**  
 - **ESSUTHI MBANGUE ANGE ARMEL**  
 - **NGUEMTCHUENG TSAMO BIBIANE DANIELLE**  
 - **MOUKEKI INDJANDJA DAVE KEVIN**  
@@ -46,7 +44,6 @@ Le projet utilise le corpus [YembaTones](https://data.mendeley.com/datasets/cx26
 - Fichiers `.wav` + annotations `.TextGrid` (segmentations syllabiques et tons).
 - Format unifié de transcription : `syllabe|ton syllabe|ton ...`
 
----
 
 ##  Architecture du modèle
 
@@ -110,11 +107,11 @@ jiwer
 soundfile
 ````
 
-📁 Vérifiez [`test.py`](./test.py) pour les formats audio supportés via `soundfile`.
+ Vérifiez [`test.py`](./test.py) pour les formats audio supportés via `soundfile`.
 
 ---
 
-## ⚖️ Considérations éthiques
+## Considérations éthiques
 
 * Respect des données personnelles : pas de collecte utilisateur.
 * Corpus anonymisé et ouvert (licence académique).
