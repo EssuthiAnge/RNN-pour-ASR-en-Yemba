@@ -1,9 +1,36 @@
 ````markdown
-# 🔉 Reconnaissance Automatique de la Parole en Yemba (ASR-Yemba)
+
+
+## 👥 **ÉQUIPE DU PROJET**
+
+- **NOUBISSI FOPA CHRISTIAN JUNIOR**  
+- **ESSUTHI MBANGUE ANGE ARMEL**  
+- **NGUEMTCHUENG TSAMO BIBIANE DANIELLE**  
+- **MOUKEKI INDJANDJA DAVE KEVIN**  
+- **ABANDA ARMAND WILFRIED**  
+
+**SUPERVISION : PR. PAULIN MALETAGIA**
+
+## 👤 Contribution – ESSUTHI MBANGUE ANGE ARMEL
+
+Dans ce projet de reconnaissance automatique de la parole en langue Yemba, j’ai participé activement aux tâches suivantes :
+
+- Analyse et préparation des données audio
+- Contribution au développement du modèle RNN Seq2Seq avec mécanisme d’attention
+- Tests du système et analyse des performances
+- Corrections et améliorations du code
+- Contrôle de la qualité globale de l’implémentation
+
+🔗 Dépôt original :  
+https://github.com/NFChristianJ/RNN-pour-ASR-en-Yemba
+
+
+#  Reconnaissance Automatique de la Parole en Yemba (ASR-Yemba)
+
 
 Ce projet propose une **application de reconnaissance vocale automatique (ASR)** pour la langue **Yemba**, une langue tonale du Cameroun. Il s’appuie sur une architecture **GRU Seq2Seq avec mécanisme d’attention additive**, permettant la transcription syllabique et tonale à partir d’échantillons audio.
 
-## 🧠 Objectif du projet
+##  Objectif du projet
 
 Développer un modèle capable de transcrire automatiquement les énoncés oraux en Yemba en intégrant :
 - La **structure syllabique**
@@ -12,7 +39,7 @@ Développer un modèle capable de transcrire automatiquement les énoncés oraux
 
 ---
 
-## 🗃️ Données utilisées
+##  Données utilisées
 
 Le projet utilise le corpus [YembaTones](https://data.mendeley.com/datasets/cx268tmrwn/3) :
 - 344 mots en Yemba, enregistrés par 11 locuteurs natifs.
@@ -21,7 +48,7 @@ Le projet utilise le corpus [YembaTones](https://data.mendeley.com/datasets/cx26
 
 ---
 
-## 🧱 Architecture du modèle
+##  Architecture du modèle
 
 L’architecture implémentée se compose de :
 
@@ -36,7 +63,7 @@ Le modèle final est défini dans [`model.py`](./model.py). Plusieurs variantes 
 
 ---
 
-## 🔁 Pipeline de traitement
+##  Pipeline de traitement
 
 1. **Prétraitement audio** (Mono 16kHz) → extraction des **Melspectrogrammes**.
 2. **Tokenisation** des transcriptions syllabico-tonales.
@@ -61,7 +88,7 @@ Une application web simple construite avec **Gradio** permet :
 
 ---
 
-## 📊 Résultats
+##  Résultats
 
 | Indicateur | Valeur |
 |------------|--------|
@@ -71,7 +98,7 @@ Une application web simple construite avec **Gradio** permet :
 
 ---
 
-## 📦 Dépendances principales
+##  Dépendances principales
 
 ```bash
 torch >= 2.x
@@ -97,7 +124,7 @@ soundfile
 
 ---
 
-## 🚀 Lancer l'application en local
+##  Lancer l'application en local
 
 ```bash
 # Installation
@@ -109,19 +136,7 @@ python interface.py  # ou autre script Gradio d'interface
 
 ---
 
-## 👥 Équipe du projet
-
-* **Noubissi Fopa Christian Junior**
-* **Essuthi Mbangue Ange Armel** 
-* **Nguemtchueng Tsamo Bibiane Danielle** 
-* **Moukeki Indjandja Dave Kevin** 
-* **Abanda Armand Wilfried** 
-
-**Supervision : Pr. Paulin MALETAGIA**
-
----
-
-## 📚 Références clés
+##  Références clés
 
 * [YembaTones Corpus](https://data.mendeley.com/datasets/cx268tmrwn/3)
 * [PyTorch](https://pytorch.org)
